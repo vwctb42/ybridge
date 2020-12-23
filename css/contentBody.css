@@ -1,0 +1,190 @@
+
+.inputBox{
+    width: calc(100% - 20px);
+    border-radius: 6px;
+    background: white;
+    border: 1px solid #D3D8E0;
+    padding: 6px 10px;
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.holder{
+    font-size:14px;
+    color:#9A9A9A;
+}
+
+.btnInput{
+    border-radius: 3px;
+    width:44px;
+    height:100%;
+    font-family:"notoM";
+    font-size:12px;
+    color:white;
+    text-align: center;
+    line-height: 24px;
+    background: #D3D8E0;
+}
+.dateMain{
+    width:100%;
+    margin-bottom: 5px;
+
+}
+.dateMain span{
+    font-size:12px;
+    color:#9A9A9A;
+    font-family: "notoM";
+}
+
+.msgBox{
+    width:calc(100% - 20px);
+    min-height:80px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding:10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.thumbnailWrap{
+    height:100%;
+
+}
+
+.thumbnail{
+    overflow: hidden;
+    object-fit: cover;
+    width:36px;
+    height:36px;
+    border-radius: 36px;
+    border: 0;
+    vertical-align: top;
+    margin: auto;
+
+}
+
+.infoWrap{
+    width:calc(100% - 10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+}
+
+.comment{
+    width:40px;
+    font-size:11px;
+    color:#9A9A9A;
+    float: right;
+    margin-top:-14px;
+}
+
+.nickNameWrap{
+    width:100%;
+    height:22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.nickName{
+    font-size:14px;
+    font-family: "notoB";
+}
+
+.date{
+    margin-left:4px;
+    color:#9A9A9A;
+    font-size:10px;
+}
+
+.labelWrapInner{
+    position:absolute;
+}
+
+.tag{
+    padding:0 4px 2px 4px;
+    background-color:#EFF5FC;
+    color:#3C82FF;
+    text-align: center;
+    margin-right:4px;
+}
+
+.lable0{
+    padding:2px 8px;
+    background-color:#FF6450;
+    color:white;
+    font-size:12px;
+    border-radius: 3px;
+ 
+}
+
+.lable1{
+    padding:2px 8px;
+    background-color:#3C82FF;
+    color:white;
+    font-size:12px;
+    border-radius: 3px;
+    margin-left:3px;
+}
+.lableWrap{
+    display: flex;
+}
+.msgGroup{
+    width:100%;
+
+}
+
+.msg p {
+    font-size: 14px;
+}
+
+.msgApp span {
+    font-size: 12px;
+}
+
+.msgGroup p{
+    margin-block-start: 4px;
+    margin-block-end: 8px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.msgApp{
+    color:#1D4284;
+    display: flex;
+    align-items: center;
+
+}
+
+.msgAppInner{
+    border:1px solid #DBE8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 12px 2px 4px;
+    border-radius: 3px;
+}
+
+.checkbox{
+    width:26px;
+    height:16px;
+    margin-right:6px;
+    border-radius: 3px;
+    line-height: 16px;
+    font-size: 10px;
+    text-align: center;
+    color:white;
+    background:#3C82FF ;
+}
+
+
+.content{
+    overflow: auto;
+}
+.msgBox.active{
+    box-shadow: 0 0 0px 2px #3C82FF;
+}

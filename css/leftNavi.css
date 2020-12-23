@@ -1,0 +1,118 @@
+.logo{
+    text-align: left;
+    margin-top: 10px;
+    color: lightgray;
+    padding-left: 31px;
+}
+
+
+.listMenu{
+    position: absolute;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.listMenu ul .listBox {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    padding: 8px 38px 8px 31px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.listMenu ul .listFolder {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    padding: 8px 0px 8px 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.menuTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listMenu ul .listFolder .folderTitle{
+    margin-bottom: 5px;
+    padding-left: 31px;
+}
+.listMenu ul .listFolder .menuTitle
+{
+    padding: 3px 0 3px 31px;
+}
+
+.listMenu ul .listBox.listBox:hover {
+    background-color: #F6F6F9;
+
+}
+
+.listMenu .item_wrap a{
+    display: inline-block;
+    vertical-align: top;
+    font-family:"notoM";
+    font-size: 16px;
+    max-width: 100%;
+    color:#3B3B3B;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none!important;
+    line-height: 25px;
+}
+
+
+.listFolder .menuTitle a{
+    display: inline-block;
+    vertical-align: top;
+    font-family:"notoR";
+    font-size: 14px;
+    max-width: 100%;
+    color: #3B3B3B;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none!important;
+    line-height: 25px;
+
+}
+
+.listFolder .menuTitle:hover {
+    background-color: #F6F6F9;
+}
+
+.badge{
+    position: absolute;
+    width:18px;
+    height:14px;
+    line-height: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"notoM";
+    font-size:8px;
+    color:white;
+    background-color:#FF6450;
+    top: 14px;
+    right: 13px;
+}
+
+.badge_s{
+    position: relative;
+    width:18px;
+    height:14px;
+    line-height: 20px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"notoM";
+    font-size:8px;
+    color:white;
+    background-color:#FF6450;
+    right: 13px;
+}
+

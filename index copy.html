@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/ui-lightness/jquery-ui.css">
+    <link rel="stylesheet" href="css/styleMain.css">
+    <link rel="stylesheet" href="css/leftNavi.css">
+    <link rel="stylesheet" href="css/contentHeader.css">
+    <link rel="stylesheet" href="css/contentBody.css">
+    <link rel="stylesheet" href="css/icons.css">
+
+    <script
+    src="https://code.jquery.com/jquery-1.9.1.min.js"
+    integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+    crossorigin="anonymous"></script>
+      <script
+    src="https://code.jquery.com/ui/1.9.1/jquery-ui.min.js"
+    integrity="sha256-UezNdLBLZaG/YoRcr48I68gr8pb5gyTBM+di5P8p6t8="
+    crossorigin="anonymous"></script>
+    <title>Ybridge</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="innerWrapper">
+      <div id="leftNavi" class="left pane">
+        <div class="listMenu">
+          <div class="logo">logo</div>
+          <ul>
+            <li class="listBox">
+              <span class="item_wrap"><a href="#" title="새소식">새소식</a><span class="badge ">12</span></span>
+            </li>
+            <li class="listBox">
+              <span class="item_wrap"><a href="#" title="북마크">북마크</a><span class="badge hidden">12</span></span>
+            </li>
+            <li class="listBox">
+              <span class="item_wrap"><a href="#" title="정보">정보</a><span class="badge hidden">12</span></span>
+            </li>
+            <li class="listFolder favorites">
+              <div class="folder_wrapper">
+                <div class="folderTitle">              
+                  <span class="item_wrap"><span class="ic_triangle"></span><a href="#" title="즐겨찾기 접기">즐겨찾기</a></span>
+                </div>
+                <div class="section">
+                  <span class="menuTitle">
+                    <a href="#" class="section_item">Y-Bridge</a>
+                    <span class="badge_s hidden">12</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="listFolder projects">
+              <div class="folder_wrapper">
+                <div class="folderTitle">              
+                  <span class="item_wrap"><span class="ic_triangle"></span><a href="#" title="프로젝트 접기">프로젝트</a><span class="ic_addProject"></span></span>
+                </div>
+                <!-- 즐겨찾기 목록에 추가되면 해당 리스트에서는 노출 X
+                <div class="section">
+                  <span class="menuTitle">
+                    <a href="#" class="section_item">Y-bridge</a>
+                    <span class="badge_s hidden">12</span>
+                  </span>
+                </div>
+                -->
+                <div class="section">
+                  <span class="menuTitle">
+                    <a href="#" class="section_item">AIVORY</a>
+                    <span class="badge_s hidden">12</span>
+                  </span>
+                </div>
+                <div class="section">
+                  <span class="menuTitle">
+                    <a href="#" class="section_item">우리아이</a>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="content" class="center pane">
+        <div class="inner">
+
+          <div id="contentHeader" class="body_header_top pane">
+            <div class="header">
+              <div class="headerTitle">
+              <span class="ic_starActive"></span>
+              <span class="projectName">Y-Bridge</span>
+              </div>
+              <div class="headerOptions">
+                <a href="#" title="검색"><span class="ic_search"></span></a>
+                <a href="#" title="필터"><span class="ic_filter"></span></a>
+              </div>
+            </div>
+          </div>
+        
+          <div id="contentBody" class="bodyMain">
+            <div class="content">
+              <div class="contentInner">
+                <div class="inputBox">
+                  <span class="holder">내용을 작성하세요.</span>
+                  <span class="btnInput">입력</span>
+                </div>
+                <diV class="dateMain"><span>오늘</span></div>
+                <div class="msgBox " >
+                    <div class="thumbnailWrap">
+                      <img class="thumbnail" src="./images/thumbnailSample.jpg" />
+                    </div>
+                    <div class="infoWrap">
+                      <div class="nickNameWrap">
+                        <div class="msg"><span class="nickName">아이유</span><span class="date">9:24 AM</span></div>
+                        <div class="lableWrap"><div class="lable0">긴급</div><div class="lable1">김토요청</div></div>
+                      </div>
+                      <div class="msgGroup">
+                        <div class="msg"><p><span class="tag">@구성원 전체</span>확인해 주시기 바랍니다.</p></div>
+                        <div class="msgApp">
+                          <div class="msgAppInner"><div class="checkbox">2</div><span>1차 검수용 데이터 입니다 확인 부탁드립니다.</span></div>
+                        </div>
+                        <div class="comment">댓글 35</div>
+                      </div>
+                    </div>
+                </div>
+
+             
+
+              <diV class="dateMain"><span>어제</span></div>
+
+
+                <div class="msgBox " >
+                  <div class="thumbnailWrap">
+                    <img class="thumbnail" src="./images/thumbnailSample.jpg" />
+                  </div>
+                  <div class="infoWrap">
+                    <div class="nickNameWrap">
+                      <div class="msg"><span class="nickName">아이유</span><span class="date">9:24 AM</span></div>
+                      <div class="lableWrap"><div class="lable0">긴급</div><div class="lable1">김토요청</div></div>
+                    </div>
+                    <div class="msgGroup">
+                      <div class="msg"><p><span class="tag">@구성원 전체</span>확인해 주시기 바랍니다.</p></div>
+                      <div class="msgApp">
+                        <div class="msgAppInner"><div class="checkbox">2</div><span>1차 검수용 데이터 입니다 확인 부탁드립니다.</span></div>
+                      </div>
+                      <div class="comment">댓글 35</div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="msgBox " >
+                <div class="thumbnailWrap">
+                  <img class="thumbnail" src="./images/thumbnailSample.jpg" />
+                </div>
+                <div class="infoWrap">
+                  <div class="nickNameWrap">
+                    <div class="msg"><span class="nickName">아이유</span><span class="date">9:24 AM</span></div>
+                    <div class="lableWrap"><div class="lable0">긴급</div><div class="lable1">김토요청</div></div>
+                  </div>
+                  <div class="msgGroup">
+                    <div class="msg"><p><span class="tag">@구성원 전체</span>확인해 주시기 바랍니다.</p></div>
+                    <div class="msgApp">
+                      <div class="msgAppInner"><div class="checkbox">2</div><span>1차 검수용 데이터 입니다 확인 부탁드립니다.</span></div>
+                    </div>
+                    <div class="comment">댓글 35</div>
+                  </div>
+                </div>
+            </div>
+
+
+
+              </div>
+            </div>
+            <div class="right pane">
+              <div class="contentInner">right</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="js/function.js"></script>
+
+      
+</body>
+</html>

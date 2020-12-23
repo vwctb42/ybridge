@@ -1,0 +1,52 @@
+.ic_addProject{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    background: url('./icons/add_project.svg');
+    background-repeat: no-repeat;
+    width:16px;
+    height:16px;
+}
+
+.ic_triangle{
+    background: url('./icons/folder_triangle.svg');
+    background-repeat: no-repeat;
+    width:7px;
+    height:3px;
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.ic_star{
+    background: url('./icons/star.svg');
+    background-repeat: no-repeat;
+    width:17px;
+    height:16px;
+    display: inline-block;
+}
+
+.ic_starActive{
+    background: url('./icons/starActive.svg');
+    background-repeat: no-repeat;
+    width:18px;
+    height:17px;
+    display: inline-block;
+}
+
+.ic_search{
+    background: url('./icons/search.svg');
+    background-repeat: no-repeat;
+    width:14px;
+    height:14px;
+    display: inline-block;
+}
+
+.ic_filter{
+    background: url('./icons/filter.svg');
+    background-repeat: no-repeat;
+    width:19px;
+    height:13px;
+    display: inline-block;
+}

@@ -1,0 +1,42 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: calc(100% - 40px);
+    height: calc(100% - 1px);
+    padding: 0 20px;
+    border-bottom:1px solid #D3D8E0;
+}
+
+.projectName{
+    font-size: 18px;
+    margin-left:5px;
+    font-family:"notoB";
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerOptions{
+    padding-left: 5px;
+    margin-left:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left:1px solid #D3D8E0;
+}
+.headerOptions a{
+    display: flex;
+}
+
+.headerOptions .ic_search{
+    margin: 3px 10px;
+}
+
+.headerOptions .ic_filter{
+    margin: 3px 10px;
+}

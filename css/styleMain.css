@@ -1,0 +1,104 @@
+
+@font-face {
+	font-family:"notoR";
+	src:local('notoR'), url("../fonts/noto-sans-kr-v12-latin_korean-regular.eot");
+	src:local('notoR'), url("../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix") format('embedded-opentype');
+	src:local('notoR'), url("../fonts/noto-sans-kr-v12-latin_korean-regular.woff") format('woff');
+}
+
+@font-face {
+	font-family:"notoM";
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-500.eot");
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix") format('embedded-opentype');
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-500.woff") format('woff');
+}
+
+@font-face {
+	font-family:"notoB";
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-700.eot");
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix") format('embedded-opentype');
+	src:local('notoM'), url("../fonts/noto-sans-kr-v12-latin_korean-700.woff") format('woff');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  color:#3B3B3B;
+  font-family:"notoR";
+}
+menu, ol, ul {
+  list-style: none;
+}
+
+.hidden{
+  display: none !important;
+}
+
+ul{
+  padding-inline-start: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.innerWrapper{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height:100%;
+}
+
+.center.pane .inner {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: calc(100% - 51px);
+}
+
+.pane {
+  display: table-cell;
+}
+
+.center.pane .inner .bodyMain {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.center.pane .inner .body_header_top{
+  width:100%;
+  height:50px;
+  display: table-caption;
+}
+
+.left.pane {
+  border-right:1px solid #D3D8E0;
+  width:154px;
+}
+
+.right.pane {
+  width: 305px;
+  height:calc(100% - 0px) !important;
+  border-left:1px solid #D3D8E0;
+}
+
+.ui-resizable-e, .ui-resizable-w{
+  cursor: col-resize;
+}
+
+.content{
+  background-color: #F6F6F9;
+  width: 100%;
+  height: 100%;
+}
+
+.contentInner{
+  padding:16px 20px 0 20px;
+}
