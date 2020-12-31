@@ -1,6 +1,6 @@
 
 .inputBox{
-    width: calc(100% - 20px);
+    width: calc(100% - 22px);
     border-radius: 6px;
     background: white;
     border: 1px solid #D3D8E0;
@@ -154,14 +154,14 @@
     margin-inline-end: 0px;
 }
 .msgApp{
-    color:#1D4284;
+    color:#3B3B3B;
     display: flex;
     align-items: center;
 
 }
 
 .msgAppInner{
-    border:1px solid #DBE8FF;
+    border:1px solid #F0F0F0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,10 +176,12 @@
     border-radius: 3px;
     line-height: 16px;
     font-size: 10px;
+    margin-top: 1px;
     text-align: center;
     color:white;
     background:#3C82FF ;
 }
+
 
 
 .content{

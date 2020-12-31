@@ -84,7 +84,7 @@ ul{
 }
 
 .right.pane {
-  width: 305px;
+  width: 405px;
   height:calc(100% - 0px) !important;
   border-left:1px solid #D3D8E0;
 }
@@ -94,11 +94,51 @@ ul{
 }
 
 .content{
+  display: inline-block;
   background-color: #F6F6F9;
   width: 100%;
   height: 100%;
 }
 
+.projectMenu{
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left:10px;
+  width:calc(100% - 10px);
+  height:49px;
+  border-bottom: 1px solid #D3D8E0;
+}
+
+.projectMenu .btnMenu{
+  width:60px;
+  height:49px;
+  line-height: 49px;
+  font-size: 14px;
+  color:#9A9A9A;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+
+.projectMenu .btnMenu.active{
+  color:#3B3B3B;
+  font-family: "notoB";
+}
+
 .contentInner{
   padding:16px 20px 0 20px;
+}
+
+.contentDetail{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: calc(100% - 50px);
+  overflow: auto;
+}
+
+.contentDetailInner{
+  padding:16px 10px 0 10px;
 }

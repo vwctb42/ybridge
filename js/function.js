@@ -5,7 +5,7 @@ $(function() {
     maxWidth:300
   });
   $(".right.pane").resizable({
-    minWidth:305,
+    minWidth:405,
     maxWidth:600,
     handles: "e, w",
     resize: function(event, ui) {
